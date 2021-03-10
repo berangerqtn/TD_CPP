@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/main.cpp
+vecteur.h
+C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/vecteur.h
+
+C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/vecteur.cpp
+vecteur.h
+C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/vecteur.h
+
+C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/vecteur.h
+iostream
+-
+
