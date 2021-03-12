@@ -1,6 +1,7 @@
 //
 // Created by Béranger Quintana on 05/03/2021.
 //
+
 #include "vecteur.h"
 //définition du constructeur alouant la dimmension au vecteur de floats.
 
@@ -24,7 +25,7 @@ vecteur::vecteur(int n_dim, float const_value){
     }
 }
 
-vecteur::vecteur(vecteur& copy){
+vecteur::vecteur(const vecteur& copy){
     this->dim=copy.dim;
     this->elements = new float[this->dim];
 
@@ -37,7 +38,6 @@ vecteur::vecteur(vecteur& copy){
 vecteur::~vecteur(){
     delete[] elements;
 }
-
 
 //Définition des fonctions
 
@@ -112,13 +112,8 @@ vecteur & vecteur::operator+=(const vecteur &other) {
 vecteur operator + (const vecteur &a , const vecteur &b) {
     if (a.get_dim() != b.get_dim())
         exit(-1);
-
-    vecteur temp(a.get_dim());
-
-    for (int i=0;i<temp.get_dim();i++)
-        temp.put(i,a[i]+b[i]);
-
-    return temp;
+    vecteur temp(a);
+    return temp+=b;
 }
 
 

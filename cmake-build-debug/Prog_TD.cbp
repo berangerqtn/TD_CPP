@@ -91,6 +91,12 @@
 		<Unit filename="C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/vecteur.h">
 			<Option target="Prog_TD"/>
 		</Unit>
+		<Unit filename="C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/vecteur_intelligent.cpp">
+			<Option target="Prog_TD"/>
+		</Unit>
+		<Unit filename="C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/vecteur_intelligent.h">
+			<Option target="Prog_TD"/>
+		</Unit>
 		<Unit filename="C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

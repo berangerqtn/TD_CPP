@@ -181,6 +181,33 @@ vecteur.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_TD.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Prog_TD.dir\vecteur.cpp.s
 .PHONY : vecteur.cpp.s
 
+vecteur_intelligent.obj: vecteur_intelligent.cpp.obj
+
+.PHONY : vecteur_intelligent.obj
+
+# target to build an object file
+vecteur_intelligent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_TD.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Prog_TD.dir\vecteur_intelligent.cpp.obj
+.PHONY : vecteur_intelligent.cpp.obj
+
+vecteur_intelligent.i: vecteur_intelligent.cpp.i
+
+.PHONY : vecteur_intelligent.i
+
+# target to preprocess a source file
+vecteur_intelligent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_TD.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Prog_TD.dir\vecteur_intelligent.cpp.i
+.PHONY : vecteur_intelligent.cpp.i
+
+vecteur_intelligent.s: vecteur_intelligent.cpp.s
+
+.PHONY : vecteur_intelligent.s
+
+# target to generate assembly for a file
+vecteur_intelligent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_TD.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Prog_TD.dir\vecteur_intelligent.cpp.s
+.PHONY : vecteur_intelligent.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -196,6 +223,9 @@ help:
 	@echo ... vecteur.obj
 	@echo ... vecteur.i
 	@echo ... vecteur.s
+	@echo ... vecteur_intelligent.obj
+	@echo ... vecteur_intelligent.i
+	@echo ... vecteur_intelligent.s
 .PHONY : help
 
 

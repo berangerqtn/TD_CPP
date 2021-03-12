@@ -10,14 +10,15 @@
 using namespace std;
 class vecteur
 {
-private:
+protected:
     int dim;
     float* elements;
+
 public:
     //Déclaration de nouveaux constructeurs
     vecteur(int n_dim);
     vecteur(int n_dim, float const_value);
-    vecteur(vecteur & copy);
+    vecteur(const vecteur & copy);
 
     //Destructeur
     ~vecteur();

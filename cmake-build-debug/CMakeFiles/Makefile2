@@ -78,12 +78,12 @@ clean: CMakeFiles\Prog_TD.dir\clean
 CMakeFiles\Prog_TD.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_TD.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Prog_TD.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_TD.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Prog_TD.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\beran\Documents\Etudes\4A\S2\C++\Prog_TD\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Prog_TD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\beran\Documents\Etudes\4A\S2\C++\Prog_TD\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target Prog_TD"
 .PHONY : CMakeFiles\Prog_TD.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\Prog_TD.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\beran\Documents\Etudes\4A\S2\C++\Prog_TD\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\beran\Documents\Etudes\4A\S2\C++\Prog_TD\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Prog_TD.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\beran\Documents\Etudes\4A\S2\C++\Prog_TD\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\Prog_TD.dir\rule
