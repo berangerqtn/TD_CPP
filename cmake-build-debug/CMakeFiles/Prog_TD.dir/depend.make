@@ -3,7 +3,12 @@
 
 CMakeFiles\Prog_TD.dir\main.cpp.obj: ..\main.cpp
 CMakeFiles\Prog_TD.dir\main.cpp.obj: ..\vecteur.h
+CMakeFiles\Prog_TD.dir\main.cpp.obj: ..\vecteur_intelligent.h
 
 CMakeFiles\Prog_TD.dir\vecteur.cpp.obj: ..\vecteur.cpp
 CMakeFiles\Prog_TD.dir\vecteur.cpp.obj: ..\vecteur.h
+
+CMakeFiles\Prog_TD.dir\vecteur_intelligent.cpp.obj: ..\vecteur.h
+CMakeFiles\Prog_TD.dir\vecteur_intelligent.cpp.obj: ..\vecteur_intelligent.cpp
+CMakeFiles\Prog_TD.dir\vecteur_intelligent.cpp.obj: ..\vecteur_intelligent.h
 

@@ -7,14 +7,14 @@
 #IncludeRegexTransform: 
 
 C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/main.cpp
-vecteur.h
-C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/vecteur.h
-
-C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/vecteur.cpp
-vecteur.h
-C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/vecteur.h
+vecteur_intelligent.h
+C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/vecteur_intelligent.h
 
 C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/vecteur.h
 iostream
 -
+
+C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/vecteur_intelligent.h
+vecteur.h
+C:/Users/beran/Documents/Etudes/4A/S2/C++/Prog_TD/vecteur.h
 

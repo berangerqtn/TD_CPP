@@ -11,7 +11,7 @@ vecteur::vecteur(int n_dim){
     dim=n_dim;
     elements = new float[n_dim];
 
-    for (int i=0;i<n_dim;i++){
+    for (int i=0;i<n_dim ;i++){
         elements[i]=float(i);
     }
 }
